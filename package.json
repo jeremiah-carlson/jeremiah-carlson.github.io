@@ -1,0 +1,23 @@
+{
+  "name": "jeremiah-carlson.github.io",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc && sass ./src/style/scss/supplemental.scss ./public/style/supplemental.css && tailwindcss build -i ./src/style/tailwind/main.css -o ./public/style/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiah-carlson/jeremiah-carlson.github.io.git"
+  },
+  "author": "jeremiah-carlson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremiah-carlson/jeremiah-carlson.github.io/issues"
+  },
+  "homepage": "https://github.com/jeremiah-carlson/jeremiah-carlson.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

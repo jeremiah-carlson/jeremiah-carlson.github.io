@@ -1,0 +1,24 @@
+---
+import Logo from "../images/Logo.astro";
+import ContactBlock from "./ContactBlock.astro";
+---
+
+<div class="w-full h-16 grid grid-cols-12 grid-rows-5 gap-4 bg-slate-400">
+    <div
+        class="w-full h-full flex flex-row align-middle justify-center row-start-3 row-span-6 col-start-0 col-span-1"
+    >
+        <Logo />
+    </div>
+
+    <div
+        class="w-full h-full flex flex-row align-middle justify-center row-start-2 row-span-3 col-start-8 col-span-6"
+    >
+        <ContactBlock
+            email="carlsonjeremiah2@gmail.com"
+            github="https://github.com/jeremiah-carlson"
+            linkedin="https://www.linkedin.com/in/jeremiah-carlson-26b4611a1/"
+            stackoverflow="https://stackoverflow.com/users/16317300/j-carlson"
+            fill="rgb(214 211 209)"
+        />
+    </div>
+</div>

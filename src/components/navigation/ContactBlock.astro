@@ -12,7 +12,7 @@ const { email, github, linkedin, stackoverflow, fill } = Astro.props;
 
 <div
     name="contact-container"
-    class="w-4/5 flex flex-row justify-around items-center rounded-lg py-2 px-1"
+    class="w-4/5 flex flex-row justify-around items-center rounded-lg py-2 px-1 [&>a>svg]:py-0.5"
 >
     <a href={`mailto:${email}`}>
         <!--https://iconmonstr.com/email-1-svg/-->
